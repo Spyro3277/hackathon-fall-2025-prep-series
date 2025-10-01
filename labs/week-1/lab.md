@@ -21,7 +21,7 @@ Get comfortable calling real APIs. By the end, you’ll be able to request live 
 3. Copy your **API key** — you’ll need this for every request.
     - CoinGecko uses a header:
         ```
-        x-cg-demo-api-key: YOUR_KEY_HERE
+        x-cg-demo-api-key: CG-8XCzJxWFYG7NJNqG2FuebcXF
         ```
 
 ---
