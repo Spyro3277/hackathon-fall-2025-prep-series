@@ -1,0 +1,12 @@
+.env
+**/__pycache__/
+venv
+.DS_Store
+./client/node_modules
+.env
+Scripts
+Scripts/*
+Include
+pyvenv.cfg
+lib
+pokemon-app
