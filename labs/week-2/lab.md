@@ -139,7 +139,7 @@ touch app.py tests/test_coins.py
 Create `.env` in `api/`:
 
 ```ini
-API_KEY=your-demo-key-here
+API_KEY=CG-8XCzJxWFYG7NJNqG2FuebcXF
 BASE_URL=https://api.coingecko.com/api/v3/coins/markets
 ```
 
