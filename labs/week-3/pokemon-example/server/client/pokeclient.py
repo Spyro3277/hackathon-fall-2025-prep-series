@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BASE_URL = os.getenv("BASE_URL", "https://pokeapi.co/api/v2/pokemon")
+BASE_URL = "https://pokeapi.co/api/v2/pokemon"
 
 class PokeClient:
     def fetch(self, limit: int = 100) -> List[Dict]:

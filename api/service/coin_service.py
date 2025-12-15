@@ -27,4 +27,12 @@ class CoinService:
     def get_all(self) -> List[CoinDTO]:
         result: List[CoinDTO] = []
         coins = self._repo.read_all()
-        
+
+        for coin in coins:
+            result.append(
+                CoinDTO(
+                    id = coin.id
+                )
+            )
+        return result
+    
